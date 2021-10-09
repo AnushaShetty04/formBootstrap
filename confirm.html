@@ -1,0 +1,27 @@
+<html>
+<head>
+<title>Receipt</title>
+<style>
+   body{
+     background-image: url(bg.jpg);
+   }
+   h1{
+       color:cornflowerblue;
+       font-family:cursive;
+       font-size:40px;
+       font-weight: bold;
+   }
+</style>
+</head>
+<body>
+<div>
+    <h1>Congratulations !!</h1>
+    <h1 id="myId"></h1>
+</div>
+<script>
+      var currentdate = new Date();
+      document.getElementById("myId").innerHTML= "Your order is placed on "+ currentdate.toDateString();
+</script>
+</body>
+
+</html>

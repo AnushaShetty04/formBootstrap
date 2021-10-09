@@ -1,0 +1,58 @@
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #eee;
+}
+ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+}
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+}
+ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+}
+.display-3{
+    text-align:center;
+    font-family:cursive;
+    margin:auto;
+    width:50%;
+    font-size:40px;
+    font-weight: bold;
+    color: rgb(70, 68, 68);
+    text-shadow: 1px 1px 2px  black, 0 0 25px cornflowerblue, 0 0 5px cornflowerblue;
+}
+#row{
+    color:cornflowerblue;
+    font-family:cursive;
+    width:50%;
+    font-size:15px;
+    font-weight: bold;
+}
+body{
+    background-image: url(bg.jpg);;
+}
+  
+.Submit{
+    background-color:cornflowerblue;
+    font-family:cursive;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    color:rgb(0, 0, 0);
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 12px 28px;
+}
+
